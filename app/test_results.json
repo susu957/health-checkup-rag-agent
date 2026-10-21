@@ -1,0 +1,227 @@
+﻿[
+    {
+        "id":  1,
+        "category":  "appointment",
+        "user_msg":  "帮老人1预约10月20号上午基础体检",
+        "expected_tool":  "book_appointment",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  2,
+        "category":  "appointment",
+        "user_msg":  "给孙武约个体检",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  3,
+        "category":  "appointment",
+        "user_msg":  "约慢病管理套餐，10月21号 09:00-10:00",
+        "expected_tool":  "book_appointment",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  4,
+        "category":  "appointment",
+        "user_msg":  "帮我看看10月22号上午还有没有号",
+        "expected_tool":  "check_availability",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  5,
+        "category":  "appointment",
+        "user_msg":  "取消老人3的预约",
+        "expected_tool":  "cancel_appointment",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  6,
+        "category":  "appointment",
+        "user_msg":  "我想约体检，但不知道选哪个套餐",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  7,
+        "category":  "appointment",
+        "user_msg":  "老人2约10月25号下午体检",
+        "expected_tool":  "book_appointment",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  8,
+        "category":  "report",
+        "user_msg":  "查老人1的体检报告",
+        "expected_tool":  "get_report",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  9,
+        "category":  "report",
+        "user_msg":  "孙武上次体检结果怎么样",
+        "expected_tool":  "get_report",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  10,
+        "category":  "report",
+        "user_msg":  "有没有老人5的报告",
+        "expected_tool":  "get_report",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  11,
+        "category":  "report",
+        "user_msg":  "帮我下载体检报告",
+        "expected_tool":  "get_report",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  12,
+        "category":  "report",
+        "user_msg":  "老人1最近的血糖数据",
+        "expected_tool":  "get_report",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  13,
+        "category":  "knowledge",
+        "user_msg":  "体检前需要空腹吗",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  14,
+        "category":  "knowledge",
+        "user_msg":  "基础体检和慢病管理套餐有什么区别",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  15,
+        "category":  "knowledge",
+        "user_msg":  "体检报告多久能出来",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  16,
+        "category":  "knowledge",
+        "user_msg":  "高血压老人体检要注意什么",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  17,
+        "category":  "knowledge",
+        "user_msg":  "可以带家属陪同体检吗",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  18,
+        "category":  "knowledge",
+        "user_msg":  "体检当天需要带什么材料",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  19,
+        "category":  "knowledge",
+        "user_msg":  "老年人体检包含哪些项目",
+        "expected_tool":  null,
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  20,
+        "category":  "profile",
+        "user_msg":  "查一下老人1的档案",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  21,
+        "category":  "profile",
+        "user_msg":  "孙武的基本信息",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  22,
+        "category":  "profile",
+        "user_msg":  "老人3的身份证号是多少",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  23,
+        "category":  "profile",
+        "user_msg":  "有没有老人100的档案",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  24,
+        "category":  "profile",
+        "user_msg":  "帮我看看老人的联系方式",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    },
+    {
+        "id":  25,
+        "category":  "profile",
+        "user_msg":  "老人2有什么既往病史",
+        "expected_tool":  "get_elderly_profile",
+        "actual_tools":  "",
+        "has_reply":  false,
+        "pass":  false
+    }
+]

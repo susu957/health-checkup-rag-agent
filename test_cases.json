@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "user_msg": "帮101号王桂兰预约10月28号上午的基础健康套餐",
+    "expected_tool": "book_appointment",
+    "category": "预约"
+  },
+  {
+    "id": 2,
+    "user_msg": "查查慢病管理套餐未来7天还有多少号源可以预约",
+    "expected_tool": "check_availability",
+    "category": "号源查询"
+  },
+  {
+    "id": 3,
+    "user_msg": "查一下10月16号当天有哪些预约记录",
+    "expected_tool": "get_appointments_by_date",
+    "category": "排期查询"
+  },
+  {
+    "id": 4,
+    "user_msg": "查一下102号李建国最近一次的体检报告",
+    "expected_tool": "query_report",
+    "category": "报告查询"
+  },
+  {
+    "id": 5,
+    "user_msg": "给预约编号1创建体检报告，摘要写各项指标基本正常",
+    "expected_tool": "create_report",
+    "category": "报告创建"
+  },
+  {
+    "id": 6,
+    "user_msg": "看看104号刘淑兰有没有体检报告，报告状态是什么",
+    "expected_tool": "query_report",
+    "category": "报告查询"
+  },
+  {
+    "id": 7,
+    "user_msg": "体检前一天需要注意什么，需要空腹吗",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 8,
+    "user_msg": "体检报告里空腹血糖偏高怎么解读，正常范围是多少",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 9,
+    "user_msg": "高血压老人日常慢病管理要注意什么，吃药有什么禁忌",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 10,
+    "user_msg": "查一下101号王桂兰的完整档案信息，包括病史和过敏史",
+    "expected_tool": "get_elderly_profile",
+    "category": "档案查询"
+  },
+  {
+    "id": 11,
+    "user_msg": "看看103号张桂芳的用药情况和紧急联系人是谁",
+    "expected_tool": "get_elderly_profile",
+    "category": "档案查询"
+  },
+  {
+    "id": 12,
+    "user_msg": "查一下104号刘淑兰的基本信息和过敏史",
+    "expected_tool": "get_elderly_profile",
+    "category": "档案查询"
+  },
+  {
+    "id": 13,
+    "user_msg": "糖尿病老人日常饮食需要注意什么，哪些食物不能吃",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 14,
+    "user_msg": "体检报告中胆固醇偏高是什么意思，应该怎么处理",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 15,
+    "user_msg": "老年人体检一般多久做一次比较合适",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 16,
+    "user_msg": "长期服用阿司匹林的老人需要注意什么，有什么副作用要警惕",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  },
+  {
+    "id": 17,
+    "user_msg": "体检前可以喝水吗，喝水对检查结果有什么影响",
+    "expected_tool": "answer_knowledge",
+    "category": "知识问答"
+  }
+]
